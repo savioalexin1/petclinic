@@ -4,7 +4,7 @@
 
 <h2>Find Owners:</h2>
 
-<spring:url value="/ownerss" var="formUrl"/>
+<spring:url value="/ownersss" var="formUrl"/>
 <form:form modelAttribute="owner" action="${fn:escapeXml(formUrl)}" method="get">
   <table>
     <tr>
